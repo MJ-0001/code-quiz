@@ -17,20 +17,19 @@
       </div>
     </section>
 
-    <section style="border: 1px solid white;" class="container col-10">
+    <section style="border: 1px solid white;" id="quiz-box" class="container col-10">
       <div class="row my-2">
         <div style="text-align: right;" class="col-7">
           <h4 style="text-decoration: underline;" class="my-2">Questions</h4>
         </div>
         <div style="text-align: right;" class="col-5">
-          <h5> Time Remaining: <span id="time">10</span></h5>
+          <h5> Time Remaining: <span id="time">30</span></h5>
           <button id="start-button">Start Quiz!</button>
         </div>
       </div>
 
       <div class="row">
         <div class="col-7">
-          <!-- <h5 id="quiz-num">Example Question:</h5> -->
           <p id="quiz-question"> Example Question: Which of these is used to add conditions to JavaScript code?</p>
           <div class="col-6">
             <button type="button" id="answ1" class="btn btn-primary btn-block mb-3">console.log()</button>
@@ -54,18 +53,17 @@
       </div>
 
       <div class="row">
-        <div class="col-2">
-          <button type="button" id="previous-button" class="btn btn-secondary btn-block mb-3">Previous</button>
+        <div class="col-4">
+          <button type="button" id="next-button" class="btn btn-secondary btn-block mb-3">Next Question</button>
         </div>
-        <div class="col-2 offset-md-2">
-          <button type="button" id="next-button" class="btn btn-secondary btn-block mb-3">Next</button>
+      </div>
+
+      <div class="row">
+        <div class="col-4">
+          <p id="outcome"></p>
         </div>
       </div>
     </section>
-
-    <div>
-      <h2 id="counter">0</h2>
-    </div>
   </main>
  
   <script src="./scripts/app.js"></script>
