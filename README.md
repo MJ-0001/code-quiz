@@ -20,3 +20,5 @@
   * Functions access the object properties and their values are passed into the inner html of the question and answer elements in the DOM.
   * A timer is activated when the user clicks on 'start quiz' which lasts for 30 seconds.
   * If the correct answer is selected, then 'Correct!' is displayed below. If an answer is wrong then 'False!' is displayed instead.
+
+### Link to deployed application: https://mj-0001.github.io/code-quiz/ 
